@@ -1,3 +1,10 @@
+function App() {
+  return <></>;
+}
+
+export default App;
+
+// helper
 export const mockGetModulesFromAPI = async (endpoint: string) => {
   // Simulate network latency
   await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -37,9 +44,3 @@ export const mockGetModulesFromAPI = async (endpoint: string) => {
     error: "Invalid endpoint",
   };
 };
-
-function App() {
-  return <></>;
-}
-
-export default App;

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Card from "../components/Card/Card";
 import Toggle from "../components/Toggle/Toggle";
 import TextInput from "../components/TextInput/TextInput";
@@ -9,7 +8,7 @@ function HomePage() {
   const [checked, setChecked] = useState(false);
 
   return (
-    <>
+    <div>
       <h2>Module addition</h2>
       <Card>
         <TextInput
@@ -19,7 +18,7 @@ function HomePage() {
         />
         <Toggle checked={checked} onChange={setChecked} />
       </Card>
-    </>
+    </div>
   );
 }
 
