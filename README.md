@@ -2,6 +2,8 @@
 
 The main task here is to create a simple React application that allows the user to search for a module and toggle a switch to enable or disable the module. The application should have a clean and minimal design, with a focus on usability.
 
+![image](https://github.com/hipeople/sr-frontend-interview/assets/6832539/aa4e4942-b6cc-4209-9cb1-e29d5481c0f1)
+
 ## Features to implement
 - Route that leads to a home page
 - Home page has a search input
