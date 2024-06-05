@@ -4,7 +4,7 @@ import Card from "../components/Card/Card";
 import Toggle from "../components/Toggle/Toggle";
 import TextInput from "../components/TextInput/TextInput";
 
-function App() {
+function HomePage() {
   const [search, setSearch] = useState("");
   const [checked, setChecked] = useState(false);
 
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
