@@ -1,11 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Card from "../components/Card/Card";
 import Toggle from "../components/Toggle/Toggle";
 import TextInput from "../components/TextInput/TextInput";
+import { mockGetModulesFromAPI } from "../api";
 
 function HomePage() {
   const [search, setSearch] = useState("");
   const [checked, setChecked] = useState(false);
+
+  useEffect(() => {
+    mockGetModulesFromAPI("/modules", { name: search }).then((response) => {
+      console.log(response);
+    });
+  }, [search]);
 
   return (
     <div>
