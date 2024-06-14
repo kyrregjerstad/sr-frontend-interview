@@ -2,7 +2,7 @@
 
 ## Features to implement
 - HTTP requests should be sent directly from the tab content component (which is empty)
-- Response data should be shown inside the Tab component
+- Response data should be shown inside the Tab content component
 - No tab is selected by default
 - Clicking away from the currently selected tab deselects it
 - Write as idiomatic React code as possible
