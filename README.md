@@ -1,15 +1,11 @@
-# HiPeople - Senior Frontent Developer Interview
-
-The main task here is to create a simple React application that allows the user to search for a module and toggle a switch to enable or disable the module. The application should have a clean and minimal design, with a focus on usability.
-
-![image](https://github.com/hipeople/sr-frontend-interview/assets/6832539/aa4e4942-b6cc-4209-9cb1-e29d5481c0f1)
+# HiPeople - Senior Frontent Developer Interview 2
 
 ## Features to implement
-- Route that leads to a home page
-- Home page has a search input
-  - When the user enters a search term, the application should display a list of modules that match the search term on each key press
-- The list of modules should be displayed in a card component with toggle switches
-- When the user clicks the toggle switch, the module should be added or removed from the list of modules
+- HTTP requests should be sent directly from the tab content component (which is empty)
+- Response data should be shown inside the Tab component
+- No tab is selected by default
+- Clicking away from the currently selected tab deselects it
+- Write as idiomatic React code as possible
 
 # About this repo
 
