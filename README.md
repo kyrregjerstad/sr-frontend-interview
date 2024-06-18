@@ -1,7 +1,9 @@
 # HiPeople - Senior Frontent Developer Interview 2
 
 ## Features to implement
+
 - HTTP requests should be sent directly from the tab content component (which is empty)
+  - for example `https://api.github.com/users/torvalds` or `https://api.github.com/users/emersion`
 - Response data should be shown inside the Tab content component
 - No tab is selected by default
 - Clicking away from the currently selected tab deselects it
@@ -33,7 +35,6 @@ yarn run dev
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
-
 ## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -53,12 +54,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
