@@ -1,4 +1,4 @@
-# HiPeople - Senior Frontent Developer Interview 2
+# HiPeople - Senior Frontend Developer Interview 2
 
 ## Features to implement
 
